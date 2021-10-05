@@ -1,0 +1,18 @@
+.row div {
+    width: auto;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #e2e2e2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.clock div {
+    opacity: 0.6 !important;
+}
+
+@media (max-width: 767px) {
+    .row div {
+        padding: 20px 25px;
+    }
+}

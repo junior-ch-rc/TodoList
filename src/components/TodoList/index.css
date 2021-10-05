@@ -1,0 +1,11 @@
+.todoList {
+    margin-top: 30px;
+    padding-top: 30px !important;
+    background-color: rgba(226,226,226, 0.6) !important;
+}
+
+@media (max-width: 767px) {
+    .row div {
+        padding: 20px 25px;
+    }
+}
